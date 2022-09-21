@@ -1,4 +1,4 @@
-package com.mindtickle.core.dataprovider;
+package com.mindtickle.core.util;
 
 public class MongoDBReader {
 }

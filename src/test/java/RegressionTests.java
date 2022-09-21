@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class RegressionTests {
+public class RegressionTests {
 }

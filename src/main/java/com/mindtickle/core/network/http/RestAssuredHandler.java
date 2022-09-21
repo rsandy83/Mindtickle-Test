@@ -1,4 +1,4 @@
-package com.mindtickle.core.network.http.Rest;
+package com.mindtickle.core.network.http;
 
 import com.mindtickle.core.network.http.HTTPRequestHandler;
 import io.restassured.RestAssured;
@@ -9,7 +9,8 @@ import io.restassured.specification.RequestSpecification;
 import java.lang.String;
 import static io.restassured.RestAssured.given;
 
-public class RestAssuredHandler implements HTTPRequestHandler {
+public class RestAssuredHandler{
+
 
 
 }

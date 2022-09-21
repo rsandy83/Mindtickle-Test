@@ -1,2 +1,4 @@
-package com.mindtickle.core.util;public class ExceptionHandler {
+package com.mindtickle.core.util;
+
+public class ExceptionHandler {
 }
