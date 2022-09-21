@@ -1,0 +1,46 @@
+{
+  "baseuri":"https://petstore.swagger.io/v2/",
+  "api":"user",
+  "requestheader":
+  {
+    "accept":"application/json",
+    "Content-Type":"application/json"
+  },
+  "users":{
+
+    "user":[
+      {
+        "id": 0,
+        "username": "firstuser",
+        "firstName": "First",
+        "lastName": "LastName1",
+        "email": "first@mindtickle.com",
+        "password": "first@123",
+        "phone": "9999999999",
+        "userStatus": 0
+      },
+      {
+        "id": 0,
+        "username": "seconduser",
+        "firstName": "Second",
+        "lastName": "LastName2",
+        "email": "second@mindtickle.com",
+        "password": "second@123",
+        "phone": "9999999998",
+        "userStatus": 0
+      },
+      {
+        "id": 0,
+        "username": "thirduser",
+        "firstName": "Third",
+        "lastName": "LastName3",
+        "email": "third@mindtickle.com",
+        "password": "third@123",
+        "phone": "9999999988",
+        "userStatus": 0
+      }
+
+    ]
+  },
+  "response":"HTTP/1.1 200 OK"
+}

@@ -11,21 +11,15 @@ public class UserDataProvider {
 
     @DataProvider(name = "user-data-provider")
     public Object[] parseUserJsonObject() {
-
-        JSONFileReader reader = new JSONFileReader("C://Users/rsand/file.json");
+        String currentDir = System.getProperty("user.dir");
+        System.out.println(currentDir);
+        JSONFileReader reader = new JSONFileReader( currentDir +"/src/test/resources/UserFile.json");
         JSONObject json = reader.jsonParse();
 
         JSONObject users = (JSONObject) json.get("users");
 
         // loop array
         JSONArray user = (JSONArray) users.get("user");
-//        Iterator<JSONObject> iterator = user.iterator();
-
-        //      while (iterator.hasNext()) {
-        //        System.out.println(iterator.next().toString());
-        //  }
-
-        //return new Object[] {  "UserName1" , "UserName2", "UserName1Updated" , "UserName2Updated" };return new Object [0][] = {
         return user.toArray();
     }
 }
